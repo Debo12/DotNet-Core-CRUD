@@ -2859,11 +2859,6 @@
   "RootNamespace": "CoreCRUD",
   "Documents": [
     {
-      "FilePath": "Views\\Employees\\Delete.cshtml",
-      "TargetPath": "Views\\Employees\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -2889,11 +2884,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views\\Employees\\Create.cshtml",
-      "TargetPath": "Views\\Employees\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "Views\\Home\\About.cshtml",
       "TargetPath": "Views\\Home\\About.cshtml",
       "FileKind": "mvc"
@@ -2914,23 +2904,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views\\Employees\\AddOrEdit.cshtml",
+      "TargetPath": "Views\\Employees\\AddOrEdit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views\\Employees\\Edit.cshtml",
-      "TargetPath": "Views\\Employees\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "Views\\Employees\\Index.cshtml",
       "TargetPath": "Views\\Employees\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\Employees\\Details.cshtml",
-      "TargetPath": "Views\\Employees\\Details.cshtml",
       "FileKind": "mvc"
     }
   ],
