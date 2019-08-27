@@ -69,10 +69,5 @@ namespace CoreCRUD.Controllers
 
             return View(employee);
         }
-
-        private bool EmployeeExists(int id)
-        {
-            return _context.Employees.Any(e => e.EmployeeID == id);
-        }
     }
 }
