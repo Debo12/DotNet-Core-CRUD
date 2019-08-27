@@ -35,9 +35,16 @@
                 <input asp-for="OfficeLocation" class="form-control" />
                 <span asp-validation-for="OfficeLocation" class="text-danger"></span>
             </div>
+            @if(Model.EmployeeID==0){
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-default" />
             </div>
+            }
+            @if(Model.EmployeeID!=0){
+            <div class="form-group">
+                <input type="submit" value="Update" class="btn btn-default" />
+            </div>
+            }
         </form>
     </div>
 </div>
